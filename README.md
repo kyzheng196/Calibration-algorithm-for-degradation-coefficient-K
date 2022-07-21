@@ -1,2 +1,2 @@
-1. 降解系数K值率定算法
-2. 误差分析及输出程序（RMSE、MRE、MSE等）
+1. Calibration algorithm for degradation coefficient K
+2. Error analysis and results output (RMSE, MSE, MAE, etc)
