@@ -57,4 +57,4 @@ for i in sheet:
 
     name = [i + str(' model' + str(k)) for k in range(1, len(RMSE) + 1)]
     df = pd.DataFrame(columns=name, data=[RMSE, MSE, MAE])
-    df.to_csv(r'C:\Users\ASUS\Desktop\误差分析输出结果.csv')
+    df.to_csv(r'...\误差分析输出结果.csv')
