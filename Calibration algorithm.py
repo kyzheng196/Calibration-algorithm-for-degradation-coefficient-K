@@ -30,7 +30,7 @@ def err_filter(arr):
 # 计算C、Co
 def avg(pollu, day):
 
-    fpath1 = r'C:\Users\ASUS\Desktop\科研\项目\前海深隧项目_专业实践\项目资料\建模资料\浓度_时间数据.xlsx'
+    fpath1 = r'...\浓度_时间数据.xlsx'
 
     if pollu == 'COD':
         df = pd.read_excel(fpath1, sheet_name="COD", header=0)
@@ -149,4 +149,4 @@ print(K_list)
 
 name = ['COD', 'NH4', 'TN', 'TP']
 df = pd.DataFrame(columns = name, data =K_list)
-df.to_csv(r'C:\Users\ASUS\Desktop\K值输出结果')
+df.to_csv(r'...\K值输出结果')
