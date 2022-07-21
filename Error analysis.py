@@ -34,7 +34,7 @@ def MAE_calcu(list1, list2):
     return round(sum, 3)
 
 
-fpath1 = r'C:\Users\ASUS\Desktop\科研\项目\前海深隧项目_专业实践\输出数据\误差分析表\模拟-实测值 对比表.xlsx'
+fpath1 = r'...\模拟-实测值 对比表.xlsx'
 sheet = ['COD', 'NH4', 'TN', 'TP']
 
 for i in sheet:
